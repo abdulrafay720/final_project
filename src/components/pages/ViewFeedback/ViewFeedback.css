@@ -1,0 +1,83 @@
+/* Testimonial Card Styles */
+.testimonial-one-wrapper .single-testimonial {
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0; /* Remove any margin */
+    width: 33.33%; /* Each card occupies 33.33% of the container width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    float: left; /* Ensure cards are floated left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-one-wrapper .testimonial-image {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.testimonial-one-wrapper .testimonial-image img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.testimonial-one-wrapper .quote-icon {
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 20px);
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-one-wrapper .quote-icon i {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.testimonial-one-wrapper .testimonial-content .text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-one-wrapper .testimonial-content .author-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.testimonial-one-wrapper .testimonial-content .sub-title {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Clear floats to prevent container collapse */
+.testimonial-one-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Testimonial Card Styles */
+.testimonial-one-wrapper .single-testimonial {
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px 20px 0; /* Add margin to the right and bottom of each card */
+    width: calc(33.33% - 10px); /* Adjust width to accommodate margin */
+    box-sizing: border-box; /* Include padding and border in the width */
+    float: left; /* Ensure cards are floated left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Clear floats to prevent container collapse */
+.testimonial-one-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}

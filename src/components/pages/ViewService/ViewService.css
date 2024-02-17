@@ -1,0 +1,62 @@
+.service-h1{
+    background-color:#00a8a8;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;; 
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  /* Card styles */
+  .card {
+    flex: 0 0 calc(30% - 20px); /* Adjusted width */
+    max-width: calc(30% - 20px); /* Adjusted width */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Card title styles */
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Card text styles */
+  .card-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+
+  /* Price styles */
+  .price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  /* Button styles */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
